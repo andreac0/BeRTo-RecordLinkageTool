@@ -1,4 +1,3 @@
-import numbers
 import numpy as np
 import re
 import pandas as pd
@@ -68,8 +67,8 @@ def reorder_street(data, column, useParser = True):
     address_parser = AddressParser(model_type="bpemb", device=0)
     parsed_addresses = address_parser(address_upper)
     fields = ['StreetNumber', 'StreetName', 'Municipality', 'Province', 'PostalCode']
-    parsed_address_data_frame = pd.DataFrame([parsed_address.to_dict(fields=fields) for parsed_address in parsed_addresses],
-                                columns=fields)
+    parsed_address_data_frame = pd.DataFrame([parsed_address.to_dict(fields=fields)   
+              for parsed_address in parsed_addresses], columns=fields)
 
     data[column] = parsed_address_data_frame['StreetNumber']+' '+parsed_address_data_frame['StreetName']
   
@@ -207,21 +206,12 @@ def data_preparation(dataset, identifier, name_entity, address, city, postal_cod
 
   return dataset_cleaned
 
-def replace_pattern(data, column = 'column_dict', pattern='pattern', replacement = 'replacement'):
-  names_to_fix = data[column]
-  patterns = data[pattern]
-  replacements = data[replacement]
 
-  for i in names_to_fix.index:
-    if patterns[i] == None:
-      data[column].loc[i] = names_to_fix[i]
-    else:
-      if replacements[i] == None:
-        data[column].loc[i] = re.sub(patterns[i], '', names_to_fix[i])
-      else:
-        data[column].loc[i] = re.sub(patterns[i], replacements[i], names_to_fix[i])
+def replace_pattern(x):
 
-  return data
+  x = re.sub(x['pattern'], x['replacement'], x['column_dict'])
+
+  return x
 
 def apply_dictionary(dataset, column_dict, country, dictionary, pattern, replacement, isocode):
   
@@ -240,7 +230,8 @@ def apply_dictionary(dataset, column_dict, country, dictionary, pattern, replace
 
   dataset = dataset.drop('isocode',axis=1)
 
-  dataset[~dataset['pattern'].isnull()] = replace_pattern(dataset[~dataset['pattern'].isnull()])
+  dataset[(~dataset['pattern'].isnull()) & (dataset['pattern'] != None) & (dataset['replacement'] == None)] = dataset[(~dataset['pattern'].isnull()) & (dataset['pattern'] != None) & (dataset['replacement'] == None)].apply(lambda x: re.sub(x['patterns'], '', x['column_dict']))
+  dataset.loc[(~dataset['pattern'].isnull()) & (dataset['pattern'] != None) & (dataset['replacement'] != None),'column_dict'] = dataset[(~dataset['pattern'].isnull()) & (dataset['pattern'] != None) & (dataset['replacement'] != None)].apply(replace_pattern, axis = 1)
 
   dataset = dataset.drop(['replacement', 'pattern'],axis=1).drop_duplicates()
   dataset.rename(columns={'column_dict': column_dict}, inplace=True)
@@ -270,15 +261,12 @@ def convert_isocode(cleaned_dataset, isocode_file, country_attribute):
     cleaned_dataset.rename(columns={'Isocode2': 'country'}, inplace=True)
 
   return(cleaned_dataset)
-   
+
+
 def levenstheinColumns(data, column1, column2):
-  data[column1] = data[column1].apply(lambda x: str(x))
-  data[column2] = data[column2].apply(lambda x: str(x))
-  n = len(data)
-  ratios = list()
-  for i in range (0,n):
-    ratios.append(lv.ratio(data[column1][i], data[column2][i]))
-  data.loc[i]
+
+  ratios = lv.ratio(data[column1], data[column2])
+  
   return ratios
 
 
@@ -304,32 +292,31 @@ def stringMatching(dataset1, identifier1, dataset2, identifier2, perfect_match =
       name_matches2 = pd.merge(dataset1, dataset2, left_on=['name','country','city'],  
                                 right_on=['name2','country2','city2'], how='inner')
 
-      # name_matches3 = pd.merge(dataset1, dataset2, left_on=['street','country','city'],  
-      #                           right_on=['street2','country2','city2'], how='inner')
+      name_matches3 = pd.merge(dataset1, dataset2, left_on=['street','country','city'],  
+                                right_on=['street2','country2','city2'], how='inner')
 
-      # if type_similarity == 'Levensthein':
-      #     name_matches3['score_name'] = levenstheinColumns(name_matches3, 'name', 'name2')
-      #     name_matches3 = name_matches3[name_matches3['score_name'] >= ratio_similarity].drop(columns='score_name').reset_index(drop = True)
+      if type_similarity == 'Levensthein':
+          name_matches3['score_name'] = name_matches3.apply(levenstheinColumns, axis = 1, column1 = 'name', column2 = 'name2')
+          name_matches3 = name_matches3[name_matches3['score_name'] >= ratio_similarity].drop(columns='score_name').reset_index(drop = True)
 
       name_matches = pd.concat([name_matches1, name_matches2],axis=0).drop_duplicates().reset_index(drop=True)
 
-    else: # in case one between city or postal we can change the condition and allow equality on both -
-      # the equality of the missing value will always be satisfied
+    else: 
       
       name_matches1 = pd.merge(dataset1, dataset2, left_on=['name','country','city','postcode'],  
                                 right_on=['name2','country2','city2','postcode2'], how='inner')
 
-      # name_matches2 = pd.merge(dataset1, dataset2, left_on=['street','country','city','postcode'],  
-      #                           right_on=['street2','country2','city2','postcode2'], how='inner')
+      name_matches2 = pd.merge(dataset1, dataset2, left_on=['street','country','city','postcode'],  
+                                right_on=['street2','country2','city2','postcode2'], how='inner')
 
-      # if type_similarity == 'Levensthein':
-      #     name_matches2['score_name'] = levenstheinColumns(name_matches2, 'name', 'name2')
-      #     name_matches2 = name_matches2[name_matches2['score_name'] >= ratio_similarity].drop(columns='score_name').reset_index(drop = True)
+      if type_similarity == 'Levensthein':
+          name_matches2['score_name'] = name_matches2.apply(levenstheinColumns, axis = 1, column1 = 'name', column2 = 'name2')
+          name_matches2 = name_matches2[name_matches2['score_name'] >= ratio_similarity].drop(columns='score_name').reset_index(drop = True)
 
       name_matches = pd.concat([name_matches1],axis=0).drop_duplicates().reset_index(drop=True)
 
     if type_similarity == 'Levensthein':
-      name_matches['score_address'] = levenstheinColumns(name_matches, 'street', 'street2')
+      name_matches['score_address'] = name_matches.apply(levenstheinColumns, axis = 1, column1 = 'street', column2 = 'street2')
       name_matches = name_matches[name_matches['score_address'] >= ratio_similarity].reset_index(drop = True)
       matches = name_matches[[identifier1, identifier2, 'country','score_address']]
     else:
@@ -357,12 +344,17 @@ def stringMatching(dataset1, identifier1, dataset2, identifier2, perfect_match =
   return matches.reset_index(drop=True)
 
 
-def joinOriginalData(matches, dataset1, identifier1, dataset2, identifier2, name1, name2, stree1, street2):
+def joinOriginalData(matches, dataset1, identifier1, dataset2, identifier2, name1, name2, street1, street2):
 
   matches = pd.merge(matches, dataset1, how= 'left', on=identifier1).drop_duplicates()
   matches = pd.merge(matches, dataset2, how= 'left', on=identifier2).drop_duplicates()
-  matches['score_name'] = levenstheinColumns(matches, name1, name2)
-  matches['score_address'] = levenstheinColumns(matches, stree1, street2)
+  matches[name1] = matches[name1].apply(lambda x: str(x))
+  matches[name2] = matches[name2].apply(lambda x: str(x))
+  matches[street1] = matches[street1].apply(lambda x: str(x))
+  matches[street2] = matches[street2].apply(lambda x: str(x))
+  matches['score_name'] = matches.apply(levenstheinColumns, axis = 1, column1= name1, column2 = name2)
+  matches['score_address'] = matches.apply(levenstheinColumns, axis = 1, column1 = street1, column2= street2)
+
 
 
   return matches

@@ -53,6 +53,7 @@ dataset2_name_match = data_preparation(dataset2_original,  identifier = id_data2
                                      AIparser=False)
 
 
+
 dataset1_name_match = apply_dictionary(dataset1_name_match, country ='country', column_dict = 'name', \
                                      dictionary = abbreviations, pattern = 'descr', \
                                      replacement = 'abbr',isocode = 'isocode')
@@ -66,14 +67,12 @@ dataset2 = apply_dictionary(dataset2_name_match, country ='country', column_dict
                                      dictionary = abbreviations, pattern = 'descr', \
                                      replacement = 'abbr',isocode = 'isocode')
 
-# dataset2 = apply_dictionary(dataset2_name_match, country ='country', column_dict = 'name', \
-#                               dictionary = fuzzy_dict, pattern = 'pattern', \
-#                               replacement = 'replacement',isocode = 'isocode')
+dataset2 = apply_dictionary(dataset2_name_match, country ='country', column_dict = 'name', \
+                              dictionary = fuzzy_dict, pattern = 'pattern', \
+                              replacement = 'replacement',isocode = 'isocode')
 
 
-name_matches = stringMatching(dataset1, id_data1, dataset2, id_data2, False)
+name_matches = stringMatching(dataset1, id_data1, dataset2, id_data2, False, ratio_similarity = 0.4, city = city_data1, postcode= pstl_data2)
 
-matches = pd.merge(name_matches, dataset1_original, how= 'left', on='RIAD_CODE').drop_duplicates()
-matches = pd.merge(matches, dataset2_original, how= 'left', on='LEI').drop_duplicates()
+joinOriginalData(name_matches, dataset1_original, 'RIAD_CODE', dataset2_original, 'LEI', name_data1, name_data2, street_data1, street_data2)
 
-joinOriginalData(name_matches, dataset1_original, 'RIAD_CODE', dataset2_original, 'LEI')

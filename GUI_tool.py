@@ -456,7 +456,7 @@ class MyWindow:
                                         pattern = 'descr', \
                                         replacement = 'abbr',\
                                         isocode = 'isocode')
-            self.messageRun = self.messageRun+' Done!\n-Performing matching...'
+            self.messageRun = self.messageRun+' Done!\n'
             self.textRun.set(self.messageRun)
             window.update()
 
@@ -480,10 +480,14 @@ class MyWindow:
                                         pattern = 'pattern', \
                                         replacement = 'replacement',\
                                         isocode = 'isocode')
-            self.messageRun = self.messageRun+' Done!\n-Performing matching...'
+            self.messageRun = self.messageRun+' Done!\n'
             self.textRun.set(self.messageRun)
             window.update()
-
+            
+        self.messageRun = self.messageRun+'-Performing matching...\n'
+        self.textRun.set(self.messageRun)
+        window.update()
+        
         global matches
         matches = stringMatching(df1_clean, self.choices_ID.get(), df2_clean, self.choices_ID2.get(),\
                                  self.tickPM.get(), self.fuzzyDist.get(), float(self.lblTR.get()), \
@@ -494,7 +498,7 @@ class MyWindow:
             self.choices_ID2.get(), self.choices_name.get(), self.choices_name2.get(), \
             self.choices_add.get(), self.choices_add2.get())
 
-        self.messageRun = self.messageRun+"\nComplete!"
+        self.messageRun = self.messageRun+"Complete!"
         self.textRun.set(self.messageRun)
 
         n_obs = len(enriched_matches)
