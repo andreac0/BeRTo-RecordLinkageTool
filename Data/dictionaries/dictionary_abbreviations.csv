@@ -1,0 +1,602 @@
+isocode,abbr,descr
+AT,OG,Offene Gesellschaft
+AT,KG,Kommanditgesellschaft
+AT,AG,Aktiengesellschaft
+AT,GmbH,Gesellschaft mit beschränkter Haftung
+AT,GEN,Erwerbs- und Wirtschaftsgenossenschaft
+AT,V,Versicherungsverein auf Gegenseitigkeit
+AT,EUNT,Einzelunternehmen
+AT,P,Privatstiftung
+AT,S,Sparkasse
+AT,SR,Sonstiger Rechtsträger
+AT,GesbR,Gesellschaft des bürgerlichen Rechts
+AT,ÖrK,Öffentlich rechtliche Körperschaften
+AT,ÖrS,Öffentlich rechtliche Stiftungen
+AT,VER,Vereine
+AT,VER,Verein
+AT,EG,Eigentümergemeinschaft
+BE,OFP,Organisation for financing pensions
+BE,UTVA,Unité TVA
+BE,UTVA,BTW-eenheid
+BE,UTVA,Mehrwertsteuereinheit
+BE,BTWE,Unité TVA
+BE,BTWE,BTW-eenheid
+BE,BTWE,Mehrwertsteuereinheit
+BE,MWSE,Unité TVA
+BE,MWSE,BTW-eenheid
+BE,MWSE,Mehrwertsteuereinheit
+BE,SCRI,Cooperative partnership with unlimited liability
+BE,CVOA,Cooperative partnership with unlimited liability
+BE,Gen.mubH,Cooperative partnership with unlimited liability
+BE,SCRL,Cooperative company with limited liability
+BE,CVBA,Cooperative company with limited liability
+BE,Gen.mbH,Cooperative company with limited liability
+BE,SNC,General partnership
+BE,V.O.F.,General partnership
+BE,OHG,General partnership
+BE,SCS,Ordinary limited partnership
+BE,Comm.V,Ordinary limited partnership
+BE,EKG,Ordinary limited partnership
+BE,SCA,Partnership limited by shares
+BE,Comm.VA,Partnership limited by shares
+BE,KGaA,Partnership limited by shares
+BE,SA,Public limited company
+BE,NV,Public limited company
+BE,AG,Public limited company
+BE,SPRL,Private limited liability company
+BE,BVBA,Private limited liability company
+BE,PGmbH,Private limited liability company
+BE,ASBL,Non-profit association
+BE,VZW,Non-profit association
+BE,VoG,Non-profit association
+BE,MUTU,Mutual health fund
+BE,MUTU,Mutual Benefit Society
+BE,MUTU,National Union of mutual health funds
+BE,ZIEK F,Mutual health fund
+BE,ZIEK F,Mutual Benefit Society
+BE,ZIEK F,National Union of mutual health funds
+BE,Kankenka,Mutual health fund
+BE,Kankenka,Mutual Benefit Society
+BE,Kankenka,National Union of mutual health funds
+BE,UP,Professional association
+BE,BV,Professional association
+BE,AAM,Mutual insurance association
+BE,AAM,Mutual insurance fund under private law
+BE,OVV,Mutual insurance association
+BE,OVV,Mutual insurance fund under private law
+BE,PRVGaG,Mutual insurance association
+BE,PRVGaG,Mutual insurance fund under private law
+BE,AEP,Foreign private associations with establishment in Belgium
+BE,BPR,Foreign private associations with establishment in Belgium
+BE,PRaV,Foreign private associations with establishment in Belgium
+BE,S. Agr.,Agricultural company
+BE,LV,Agricultural company
+BE,LG,Agricultural company
+BE,FONDPRIV,Private Foundation
+BE,PRIV ST.,Private Foundation
+BE,PrSt,Private Foundation
+BE,ISBL,Non-profit institution
+BE,IZW,Non-profit institution
+BE,EoG,Non-profit institution
+BE,FUP,Public utility foundation
+BE,SON,Public utility foundation
+BE,gnS,Public utility foundation
+BE,ENT E,Foreign company
+BE,BO,Foreign company
+BE,AGes.,Foreign company
+BE,FDP PJ,Other private-law form with legal personality
+BE,PRV,Other private-law form with legal personality
+BE,PRRFmRP,Other private-law form with legal personality
+BE,GIE,Economic interest grouping
+BE,ESV,Economic interest grouping
+BE,WIV,Economic interest grouping
+BE,ACP,Joint owners' association
+BE,VME,Joint owners' association
+BE,MEV,Joint owners' association
+BE,SCRI CP,"Cooperative company with unlimited liability, Participating cooperative, governed by public law"
+BE,CVOA CD,"Cooperative company with unlimited liability, Participating cooperative, governed by public law"
+BE,GmuHGB,"Cooperative company with unlimited liability, Participating cooperative, governed by public law"
+BE,SCRL DPU,"Cooperative company with limited liability, governed by public law"
+BE,CVBA PR,"Cooperative company with limited liability, governed by public law"
+BE,ÖfrGmbH,"Cooperative company with limited liability, governed by public law"
+BE,SA DPU,"Public limited company, governed by public law"
+BE,NV PR,"Public limited company, governed by public law"
+BE,Ö.-r.AG,"Public limited company, governed by public law"
+BE,ASBL DPU,"Non-profit association, governed by public law"
+BE,VZW PR,"Non-profit association, governed by public law"
+BE,ÖrVohGza,"Non-profit association, governed by public law"
+BE,SAM DPU,"Mutual insurance association, governed by public law"
+BE,OVV PR,"Mutual insurance association, governed by public law"
+BE,ÖrVgGe,"Mutual insurance association, governed by public law"
+BE,ETSPUBLI,Public institution
+BE,OI,Public institution
+BE,ÖE,Public institution
+BE,AISBL,International non-profit association
+BE,IVZW,International non-profit association
+BE,IVoG,International non-profit association
+BE,PIETE,Pawnshop
+BE,BVB,Pawnshop
+BE,LH,Pawnshop
+BE,PW,Polder - watering
+BE,Ewg-Bwg,Polder - watering
+BE,AFJ,Other legal form
+BE,AV,Other legal form
+BE,ARF,Other legal form
+BE,OPEI,Foreign or international public institution
+BE,BIPO,Foreign or international public institution
+BE,AIÖE,Foreign or international public institution
+BE,SF,Company under formation
+BE,VV,Company under formation
+BE,GbG,Company under formation
+BE,SC SCRI,Non-trading company in the form of a cooperative company with unlimited liability
+BE,BV CVOA,Non-trading company in the form of a cooperative company with unlimited liability
+BE,ZvGGugcH,Non-trading company in the form of a cooperative company with unlimited liability
+BE,SC SCRL,Non-trading company in the form of a cooperative company with limited liability
+BE,BV CVBA,Non-trading company in the form of a cooperative company with limited liability
+BE,ZvGGbH,Non-trading company in the form of a cooperative company with limited liability
+BE,SC SNC,Non-trading company in the form of a general partnership
+BE,BV VOF,Non-trading company in the form of a general partnership
+BE,ZRG OHG,Non-trading company in the form of a general partnership
+BE,SC SCS,Non-trading company in the form of an ordinary limited partnership
+BE,BV GCV,Non-trading company in the form of an ordinary limited partnership
+BE,ZRG EKG,Non-trading company in the form of an ordinary limited partnership
+BE,SC SCA,Non-trading company in the form of a partnership limited by shares
+BE,BV CVA,Non-trading company in the form of a partnership limited by shares
+BE,ZRG KGaA,Non-trading company in the form of a partnership limited by shares
+BE,SC SA,Non-trading company in the form of a public limited company
+BE,BV NV,Non-trading company in the form of a public limited company
+BE,ZRG AG,Non-trading company in the form of a public limited company
+BE,SC SPRL,Non-trading company in the form of a private limited liability company
+BE,BV BVBA,Non-trading company in the form of a private limited liability company
+BE,ZvGPgbH,Non-trading company in the form of a private limited liability company
+BE,PPEU,European political party
+BE,EUPP,European political party
+BE,FPEU,European political foundation
+BE,EUPS,European political foundation
+BE,SC SAGR,Non-trading company in the form of an agricultural company
+BE,BV LV,Non-trading company in the form of an agricultural company
+BE,ZRG LG,Non-trading company in the form of an agricultural company
+BE,SPF,Federal Public Service
+BE,FOD,Federal Public Service
+BE,FÖD,Federal Public Service
+BE,SPP,Federal Public Planning Service
+BE,POD,Federal Public Planning Service
+BE,FÖP,Federal Public Planning Service
+BE,SERVFEDE,Other federal service
+BE,FEDEDIEN,Other federal service
+BE,FödD,Other federal service
+BE,REGCOMNL,Authorities of the Flemish Region and the Flemish Community
+BE,VLGEWGEM,Authorities of the Flemish Region and the Flemish Community
+BE,FlRG,Authorities of the Flemish Region and the Flemish Community
+BE,RW,Authorities of the Walloon Region
+BE,WG,Authorities of the Walloon Region
+BE,WR,Authorities of the Walloon Region
+BE,AISBL DPU,"International non-profit association, governed by public law"
+BE,IVZW PR,"International non-profit association, governed by public law"
+BE,ÖrIVoG,"International non-profit association, governed by public law"
+BE,REGBRXCA,Authorities of the Brussels Capital Region
+BE,BRUHOOGE,Authorities of the Brussels Capital Region
+BE,RBH,Authorities of the Brussels Capital Region
+BE,COMMFRAN,Authorities of the French Community
+BE,FRAGEMEE,Authorities of the French Community
+BE,FrG,Authorities of the French Community
+BE,COMGERMA,Authorities of the German-speaking Community
+BE,DUITGEME,Authorities of the German-speaking Community
+BE,DG,Authorities of the German-speaking Community
+BE,AUTOPROV,Provincial Authority
+BE,PROVOVER,Provincial Authority
+BE,Provbehö,Provincial Authority
+BE,COMMUNES,City
+BE,COMMUNES,municipality
+BE,GEMEENTE,City
+BE,GEMEENTE,municipality
+BE,Gemeinde,City
+BE,Gemeinde,municipality
+BE,CPAS,Public social welfare centre
+BE,OCMW,Public social welfare centre
+BE,ÖSHZ,Public social welfare centre
+BE,POLLOC,Local Police
+BE,LOKPOL,Local Police
+BE,LP,Local Police
+BE,IC,Intermunicipal company
+BE,IK,Intermunicipal company
+BE,APROJ,Project association
+BE,PROJ V,Project association
+BE,Prjverng,Project association
+BE,ASS SERV,Services provider association
+BE,DIENSTV,Services provider association
+BE,DlvFL,Services provider association
+BE,ACMISS,Project entrusted association
+BE,OPDRAVER,Project entrusted association
+BE,BVerFL,Project entrusted association
+BE,RCOMAUT,Autonomous municipal company
+BE,AUTOGEMB,Autonomous municipal company
+BE,AutGemRg,Autonomous municipal company
+BE,RPROVAUT,Autonomous provincial company
+BE,AUTOPRB,Autonomous provincial company
+BE,AutPrvRg,Autonomous provincial company
+BE,Ass.CPAS,Association of public centres for social welfare
+BE,Ver.OCMW,Association of public centres for social welfare
+BE,VÖSHZ,Association of public centres for social welfare
+BE,ZDS,Relief zone
+BE,HVZ,Relief zone
+BE,HLZ,Relief zone
+BE,SCRI FS,Cooperative company with unlimited liability with a social purpose
+BE,CVOA SO,Cooperative company with unlimited liability with a social purpose
+BE,GuHsZ,Cooperative company with unlimited liability with a social purpose
+BE,SCRL FS,Cooperative company with limited liability with a social purpose
+BE,CVBA SO,Cooperative company with limited liability with a social purpose
+BE,GbHsZ,Cooperative company with limited liability with a social purpose
+BE,SNC FS,General partnership with a social purpose
+BE,VOF SO,General partnership with a social purpose
+BE,OHGmsZ,General partnership with a social purpose
+BE,SCS FS,Ordinary limited partnership with a social purpose
+BE,GCW SO,Ordinary limited partnership with a social purpose
+BE,EKGmsZ,Ordinary limited partnership with a social purpose
+BE,SCA FS,Partnership limited by shares with a social purpose
+BE,CVA SO,Partnership limited by shares with a social purpose
+BE,KGaAmsZ,Partnership limited by shares with a social purpose
+BE,SA FS,Public limited company with a social purpose
+BE,NV SO,Public limited company with a social purpose
+BE,AGmsZ,Public limited company with a social purpose
+BE,SPRL FS,Private limited liability company with a social purpose
+BE,BVBA SO,Private limited liability company with a social purpose
+BE,PmbHsZ,Private limited liability company with a social purpose
+BE,GIE FS,Economic interest grouping with a social purpose
+BE,ESV SO,Economic interest grouping with a social purpose
+BE,WIVmsZ,Economic interest grouping with a social purpose
+BE,SRL,Limited liability company
+BE,BV,Limited liability company
+BE,GmbH,Limited liability company
+BE,Scomm,Limited partnership
+BE,CommV,Limited partnership
+BE,KommG,Limited partnership
+BE,SRL DPU,"Limited liability company, governed by public law"
+BE,BV PR,"Limited liability company, governed by public law"
+BE,SDPU,"Limited liability company, governed by public law"
+BE,SCommDPU,"Limited partnership, governed by public law"
+BE,CommV PR,"Limited partnership, governed by public law"
+BE,SDPU,"Limited partnership, governed by public law"
+BE,FORME FS,"Other form with a social purpose, governed by public law"
+BE,VORM SO,"Other form with a social purpose, governed by public law"
+BE,RFmsZ,"Other form with a social purpose, governed by public law"
+BE,SDC,Partnership
+BE,MS,Partnership
+BE,GaR,Partnership
+BE,SC,Cooperative partnership
+BE,CV,Cooperative partnership
+BE,SC DPU,"Cooperative partnership, governed by public law"
+BE,CV PR,"Cooperative partnership, governed by public law"
+BE,SDPU,"Cooperative partnership, governed by public law"
+BE,SASPJ,Company or association without legal personality
+BE,VVZRL,Company or association without legal personality
+BE,GVoRP,Company or association without legal personality
+CZ,v.o.s.,Verejná obchodní spolecnost
+CZ,s.r.o.,Spolecnost s rucením omezeným
+CZ,k.s.,Spolecnost komanditní
+CZ,a.s.,Akciová spolecnost
+CZ,o.p.s.,Obecne prospešná spolecnost
+CZ,svj,Spolecenství vlastníku jednotek
+CZ,s.p.,Státní podnik
+DE,GbR,Gesellschaft bürgerlichen Rechts
+DE,GbR,BGB-Gesellschaft
+DE,OHG,Offene Handelsgesellschaft
+DE,KG,Kommanditgesellschaft
+DE,eK,Eingetragener Kaufmann
+DE,eK,Eingetragene Kauffrau
+DE,PartG,Partnerschaftsgesellschaft
+DE,.. & Co. KG,Kommanditgesellschaft mit haftungsbeschränktem Komplementär
+DE,.. & Co. KGaA,Kommanditgesellschaft auf Aktien mit haftungsbeschränktem Komplementär
+DE,.. & Co. OHG,Offene Handelsgesellschaft mit haftungsbeschränktem Gesellschafter
+DE,AG,Aktiengesellschaft
+DE,KGaA,Kommanditgesellschaft auf Aktien
+DE,InvAG,Investmentaktiengesellschaft
+DE,GmbH,Gesellschaft mit beschränkter Haftung
+DE,UG,Unternehmergesellschaft
+DE,wV,Wirtschaftlicher Verein
+DE,ÖPP,Öffentlich-private Partnerschaft
+DE,JPahR,Juristische Person alten hamburgischen Rechts
+DE,eG,Eingetragene Genossenschaft
+DE,VVaG,Versicherungsverein auf Gegenseitigkeit
+DE,G,Gebietskörperschaft
+DE,AöR,Anstalt des öffentlichen Rechts
+DE,KöR,Körperschaft des öffentlichen Rechts
+DE,SöR,Stiftung des öffentlichen Rechts
+DE,BeG,Betriebe der Gebietskörperschaften
+DE,ZweckV,Zweckverband
+DE,SpR,Stiftung des privaten Rechts
+DE,e.V.,Eingetragener Verein
+DE,WuR,Weltanschauungs- und Religionsgemeinschaft
+DE,SoOE,Sonstige Organisation ohne Erwerbszweck
+DE,SnP,Sonstige nichtrechtsfähige Personenvereinigung
+DE,P,Privatperson
+DK,a.m.b.a.,Andelsselskab begr. ansvar
+DK,s.m.b.a.,Selskab med begrænset ansvar
+DK,f.m.b.a.,Forening med begrænset ansvar
+DK,I,Interessentskab
+DK,S,Interessentskab
+DK,K,Kommanditselskab
+DK,S,Kommanditselskab
+DK,A,Aktieselskab
+DK,S,Aktieselskab
+DK,ApS,Anpartselskab
+DK,IVS,Iværksætterselskab
+EE,AS,Aktsiaselts
+EE,OÜ,Osaühing
+EE,TÜ,Täisühing
+EE,UÜ,Usaldusühing
+EE,MTÜ,Mittetulundusühing
+EE,TuÜ,Tulundusühistu
+EE,SA,Sihtasutus
+EE,RKOA,Riigi ja kohaliku omavalitsuse asutused
+EE,KÜ,Korteriühistu
+ES,SA,Sociedad Anónima
+ES,SAU,Sociedad Anónima Unipersonal
+ES,SAL,Sociedad Anónima Laboral
+ES,SA LABORAL,Sociedad Anónima Laboral
+ES,SL,Sociedad de responsabilidad limitada
+ES,SRL,Sociedad de responsabilidad limitada
+ES,SLU,Sociedad Limitada Unipersonal
+ES,SRLU,Sociedad Limitada Unipersonal
+ES,SLL,Sociedad Limitada Laboral
+ES,SL LABORAL,Sociedad Limitada Laboral
+ES,SLNE,Sociedad Limitada Nueva Empresa
+ES,SC,Sociedad colectiva
+ES,SRC,Sociedad colectiva
+ES,S. EN C. o S. COM.,Sociedad Comanditaria Simple
+ES,S. COM. P.A.,Sociedad Comanditaria por acciones
+ES,S COOP,Sociedad Cooperativa
+ES,SGR,Sociedad de garantía recíproca
+ES,SAT,Sociedad agraria de transformación
+ES,AIE,Agrupación de Interés económico
+ES,SP,Sociedad profesional
+EU,SE,Societas Europea
+EU,SCE,Societas Cooperativa Europea
+EU,EEIG,European Economic Interest Grouping
+EU,EGTC,European Grouping of Territorial cooperation
+FI,ky,Kommandiittiyhtiö
+FI,kb,Kommandiittiyhtiö
+FI,oy,Osakeyhtiö
+FI,oyj,Osakeyhtiö
+FI,ab,Osakeyhtiö
+FI,abp,Osakeyhtiö
+FI,as oy,Asunto-osakeyhtiö
+FI,op,Osuuspankki
+FI,osk,Osuuskunta
+FI,sr,Säätiö
+FI,sp,Säästöpankki
+FR,SARL,Société à responsabilité limitée
+FR,SÀRL,Société à responsabilité limitée
+FR,SA,Société anonyme
+FR,SCA,Société en commandite par actions
+FR,SICAV,Société d'investissement à capital variable
+FR,EURL,Entreprise unipersonnelle à responsabilité limitée
+FR,SCOP,Société coopérative de production
+FR,SEM,Société d'économie mixte
+FR,SAS,Société par actions simplifiée
+FR,FCP,Fonds commun de placement dénués de personnalité morale
+FR,OT,Organismes de titrisation dénués de personnalité morale
+FR,EI,Entreprise individuelle/entreprise en nom personnel
+FR,EURL,U-unipersonnelle
+FR,SASU,U-unipersonnelle
+FR,FCP,Fond commun de placement
+FR,GIE,Groupement d'intérêt économique
+FR,SEP,Société en participation
+FR,SNC,Société en nom collectif
+FR,SLP,Société de libre partenariat
+FR,SPFPL SCA,Société de Participations Financières de Profession Libérale Société en commandite par actions
+FR,SPFPL SARL,Société de Participations Financières de Profession Libérale Société à responsabilité limitée
+FR,SPFPL SAS,Société de Participations Financières de Profession Libérale Société par actions simplifiée
+FR,CUMA,Coopérative d'utilisation de matériel agricole en commun
+FR,SCPI,Société civile de placement collectif immobilier
+FR,GAEC,Groupement agricole d'exploitation en commun
+FR,SIVOM,Syndicat intercommunal à vocation multiple
+FR,SIVU,Syndicat intercommunal à vocation unique
+FR,PETR,Pôle d'équilibre territorial et rural
+FR,CIAS,Centre Intercommunal d'action sociale
+FR,OPHLM,Office public d'habitation à loyer modéré
+FR,SDIS,Service départemental d'incendie et de secours
+FR,GIP,Groupement d'intérêt public
+GR,SP,Astiki (Proswpiki) Eteria
+GR,OE,Omórithmi Etería
+GR,EE,Eterórithmi Etería
+GR,SLP,Afanis Eteria
+GR,SA,Anónimi Etería
+GR,EPE,Etería Periorisménis Euthínis
+GR,IKE,Idiotiki kefaleouhiki Eteria
+GR,JSO,Simplioktisia
+GR,SC,Naftiki eteria
+GR,COOP,Sinetairismos
+GR,CLF,Somatia - Idrimata
+GR,JV,Kinopraxia
+GR,PL,Nomika Prosopa Dimosiou Dikeou
+GR,Other,Lipa'
+HR,d.d.,Dionicko društvo
+HR,d.o.o.,Društvo s ogranicenom odgovornošcu
+HR,j.t.d,Javno trgovacko društvo
+HR,k.d.,Komanditno društvo
+HR,j.d.o.o.,Jednostavno društvo s ogranicenom odgovornošcu
+HR,GIU,Gospodarsko interesno udruženje
+HR,s.d.d,Športsko dionicko društvo
+HU,Kft.,Korlátolt felelosségu társaság
+HU,Rt.,Részvénytársaság
+HU,OBA,Országos betétbiztosítási alap
+IE,LTD,Private Company Limited by Shares
+IE,DAC,Designated Activity Company – (limited by shares).
+IE,DAC,Designated Activity Company Limited by Guarantee – (limited by guarantee)
+IE,CLG,Company Limited by Guarantee (limited by guarantee not having a share capital)
+IE,PLC,Public Limited Company
+IE,SMC,Single Member Company
+IE,UC,Unlimited company
+IE,UCITS,Undertakings for Collective Investment in Transferable Securities
+IT,PA,PUBBLICA AMMINISTRAZIONE
+IT,SNC,SOCIETA' IN NOME COLLETTIVO
+IT,SAS,SOCIETA' IN ACCOMANDITA SEMPLICE
+IT,SS,SOCIETA' SEMPLICE
+IT,SDF,SOCIETA' DI FATTO
+IT,AIMP,AZIENDA PROVINCIALE
+IT,AIMP,CONSORZIO
+IT,COOP,SOCIETA' COOPERATIVA
+IT,SPA,SOCIETA' PER AZIONI
+IT,SAA,SOCIETA' IN ACCOMANDITA PER AZIONI
+IT,SRL,SOCIETA' A RESPONSABILITA' LIMITATA
+LT,AB,Akcine bendrove
+LT,UAB,Uždaroji akcine bendrove
+LT,KO,Kooperatine bendrove
+LT,TUB,Tikroji ukine bendrija
+LT,KUB,Komanditine ukine bendrija
+LT,A,Asociacija
+LT,MB,Mažoji bendrija
+LT,ZUB,Žemes ukio bendrove
+LT,II,Individuali imone
+LT,APB,Advokatu profesine bendrija
+LT,PDB,Privaciu detektyvu bendrija
+LT,VI,Valstybes imone
+LT,SI,Savivaldybes imone
+LT,VS,Viešoji istaiga
+LT,BI,Biudžetine istaiga
+LT,LF,Labdaros ir paramos fondas
+LT,BN,Bendrija
+LT,SD,Sodininku bendrija
+LT,PP,Politine partija
+LT,TR,Tradicine religine bendruomene ar bendrija
+LT,RB,Religine bendruomene ar bendrija
+LT,PS,Profesine sajunga ar susivienijimas
+LT,S,Šeimyna
+LT,PR,"Prekybos, pramones ir amatu rumai"
+LT,LPRA,"Lietuvos prekybos, pramones ir amatu rumu asociacija"
+LT,CRC,Bendras valdymo ir pranešimu centras
+LT,CB,Centrinis bankas
+LU,EI,Entreprise individuelle
+LU,SENC,Société en nom collectif
+LU,SARL,Société à responsabilité limitée
+LU,SARLS,Société à responsabilité limitée simplifiée
+LU,SECS,Société en commandite simple
+LU,SECSP,Société en commandite speciale
+LU,SA,Société anonyme
+LU,SECA,Société en commandite par actions
+LU,SICAV,Société d'investissement à capital variable
+LU,SICAF,Société d'investissement à capital fixe
+LU,SEPCAV,Société d’épargne-pension à capital variable
+LU,SCOP,Société coopérative
+LU,SC,Société civile
+LU,AM,Association momentanée
+LU,GIE,Groupement d'intérêt économique
+LU,ASBL,Association sans but lucratif
+LU,FON,Fondation
+LU,ASSEP,Association d'épargne pension
+LU,AAM,Association d'assurances mutuelles
+LU,AA,Association agricole
+LU,EP,Etablissement public
+LU,SNC,Société en nom collectif
+LU,SSC,Succursale de société commerciale
+LU,SSARLS,Succursale de société à responsabilité limitée simplifiée
+LU,FCP,Fonds commun de placement
+LU,FIAR,Fonds d'investissement alternatif reservé
+LU,AUT,Autres Formes juridiques
+LU,SP,Secteur public
+LU,SICAR,Société d'investissement à capital risque
+LV,AS,Akciju sabiedriba
+LV,SIA,Sabiedriba ar ierobežotu atbildibu
+LV,VU,Valsts uznemums
+LV,PSV,Pašvaldibas uznemums
+LV,UZN,Uznemejsabiedribas uznemums
+LV,PS,Pilnsabiedriba
+LV,KS,Komanditsabiedriba
+LV,LIG,Ligumsabiedriba ar pilnu atbildibu
+LV,PAJ,Paju sabiedriba
+LV,PAP,Sabiedriba ar papildu atbildibu
+LV,GIM,Gimenes uznemums
+LV,IK,Individualais komersants
+LV,IND,Individualais uznemums
+LV,KB,Kooperativa sabiedriba
+LV,KBS,Kooperativo biedribu savieniba
+LV,KBU,Kooperativo biedribu uznemums
+LV,KSS,Kooperativo biedribu savienibas uznemums
+LV,ZEM,Zemnieku saimnieciba
+LV,ZVJ,Zvejnieku saimnieciba
+LV,PPI,Publiskas personas un iestades
+LV,REL,Religiskas organizacijas uznemums
+LV,SOU,Sabiedriskas organizacijas uznemums
+LV,ARA,Arodbiedribu apvieniba
+LV,ARB,Arodbiedriba
+LV,ARV,Arodbiedribas patstaviga vieniba
+LV,ROROIG,Religiskas organizacijas un religisko organizaciju iestades
+LV,BDR,Biedriba
+LV,NOD,Nodibinajums
+LV,PP,Politiska partija
+LV,PPA,Politisko partiju apvieniba
+LV,AKF,Arzemju komersanta filiale
+LV,PAR,Parstavnieciba
+MT,PCOMM,En commandite
+MT,P,En nom collectif
+MT,LTD,Limited
+MT,OC,Overseas Company
+MT,SV,SICAV
+MT,PLC,Public limited company
+NL,BV,Besloten vennootschap
+NL,NV,Naamloze vennootschap
+NL,CVA,Commanditaire Vennootschap met rechtspersoonlijkheid
+NL,OWM,Onderlinge waarborgmaatschappij
+NL,VVE,Vereniging van eigenaars
+NL,CV,Commanditaire vennootschap
+NL,VOF,Vennootschap onder firma
+NL,BA,Coöperatie met Beperkte Aansprakelijkheid
+NL,COV,Coöperatieve Vereniging
+PL,s.c.,spólki cywilne
+PL,sp.p.,spólki partnerskie
+PL,S.A.,spólki akcyjne
+PL,sp. z o.o.,spólki z ograniczona odpowiedzialnoscia
+PL,s.j.,spólki jawne
+PL,sp.k.,spólki komandytowe
+PL,S.K.A.,spólki komandytowo - akcyjne
+PL,TUW,towarzystwa ubezpieczen wzajemnych
+PL,OFE,otwarte fundusze emerytalne
+PT,ACE,Agrupamento Complementar de Empresas
+PT,Lda,Sociedade por Quotas
+PT,SUni,Sociedade Unipessoal Por Quotas
+PT,SA,Sociedade Anónima
+PT,Coman,Sociedades em comandita
+PT,SNC,Sociedades em nome coletivo
+PT,SOCI,Sociedade Civil
+PT,EIRL,Estabelecimento Individual de Responsabilidade Limitada
+PT,Coop,Cooperativa
+PT,Assoc,Associação
+PT,Fund,Fundação
+PT,EPE,Empresa Pública Empresarial
+PT,PCDP,Pessoa Coletiva de Direito Público
+PT,EPMR,"Entidade Publica Municipal, Intermunicipal e Regional"
+PT,OAP,Organismo da Administracao Publica
+PT,PCR,Pessoa Colectiva Religiosa
+PT,OI,Organizacoes Internacionais
+RO,SA,Societate pe actiuni
+RO,SRL,Societate cu raspundere limitata
+RO,SCS,Societate în comandita simpla
+RO,SCA,Societate în comandita pe actiuni
+RO,ONG,Organiza<U+021B>ie non-guvernamentala
+RO,SNC,Societate în nume colectiv
+RO,RA,Regie autonoma
+RO,GIE,Grupul de interes economic
+SE,"HB, KB","Handelsbolag, kommanditbolag"
+SE,AB,Bankaktiebolag
+SE,AB,Försäkringsaktiebolag
+SE,AB,Övriga aktiebolag
+SE,Ek. för.,Ekonomisk förening
+SE,BRF,Bostadsrättsförening
+SE,Spb,Sparbanker
+SI,d.n.o.,Družba z neomejeno odgovornostjo d.n.o.
+SI,k.d.,Komanditna družba k.d.
+SI,d.o.o.,Družba z omejeno odgovornostjo d.o.o.
+SI,d.d.,Delniška družba d.d.
+SI,k.d.d.,Komanditna delniška družba k.d.d.
+SI,GIZ,Gospodarsko interesno združenje GIZ
+SI,z.o.o.,Zadruga z.o.o.
+SI,z.b.o.,Zadruga z.b.o.
+SI,d.v.z.,Družba za vzajemno zavarovanje d.v.z.
+SK,v.o.s.,Verejná obchodná spolocnost
+SK,s.r.o.,Spolocnost s rucením obmedzeným
+SK,k. s.,Komanditná spolocnost
+SK,N.O.,Nezisková organizácia
+SK,a.s.,Akciová spolocnost
+SK,š.p.,Štátny podnik
+SK,VÚC,Samosprávny kraj
